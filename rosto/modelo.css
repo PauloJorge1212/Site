@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: jostix;
+	background-color: #000;
+}
+@media screen and (max-width:800px) {
+    .header {
+        position: unset;
+    }
+    .title.menu, .title.logo {
+        width: 100%;
+    }
+    .title.menu a {
+        font-size: small;
+        margin-left: 1.5%;
+        margin-right: 1.5%;
+    }
+}
+@font-face {
+	font-family: jostix;
+	src: url(joystix_monospace.ttf) format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+h1{
+	text-align: center;
+	font-size: 25px;
+	color: #fff;
+	background-color: rgba(30, 30, 30);
+}
+h3{
+	text-align: center;
+	margin-top: 20;
+}
+h4{
+	text-align: center;
+	padding: 20px;
+	color: #fff;
+}
+#tela {
+	height: auto;
+    text-align: left;
+	background-color: #000;
+}
+#titulo {
+	padding: 30px;
+	background-color: rgba(30, 30, 30);
+
+}
+#menu{
+	width: 100%;
+	background-color:rgb(30, 30, 30);
+	position: sticky;
+	top: 0;
+}
+
+#menu ul{
+	list-style-type: none;
+	text-transform: uppercase;
+}
+#menu ul li{
+	float: left;
+	width: 25%;
+}
+#menu ul li a {
+	font-size: 20px;
+	background-color:rgb(30, 30, 30);
+	text-align: center;
+	display: block;
+	padding: 10px;
+	color: #af28d1;
+	text-decoration: none;	
+}
+/*Tudo*/
+#itens {
+    display:flex;
+    background: #000;
+    font-size: 16px;
+    line-height: 24px;
+    width: 100%;
+    color: #fff;
+    text-align:justify; 
+	margin-top: 35px;
+ }
+#conteudo{
+	width: 100%;
+	margin-top: 0px;
+}
+ /* INICIO */
+.inicio {
+	display: block;
+	text-align: center;
+	width: 100px;
+	flex-direction: column;
+}
+/*Area sobre jogos*/
+
+#jogos{
+	display: block;
+    background: #000;
+    font-size: 16px;
+    line-height: 24px;
+	height: auto;
+    color: #fff;
+    text-align:justify; 
+}
+
+.imagensleft{
+	float: left;
+	margin-top: 50px;
+	padding: 10px;
+	width: 10%;
+	height: 100%;
+}
+.imagensright{
+	float: right;
+	margin-top: 50px;
+	padding: 10px;
+	width: 10%;
+	height: 100%;
+	
+}
+.imagenscenter{
+margin:auto;
+height:auto;
+}
+
+/*Comentarios*/
+.comentarios{
+	width: 50%;
+	margin:auto;
+	text-align:center;
+}
+
+textarea{
+	resize: none;
+}
+#main1 {
+    background-color: #000000;
+    width: 800px;
+	height: 320px;
+	text-align: center;
+}
