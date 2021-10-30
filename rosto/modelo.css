@@ -122,10 +122,13 @@ h4{
 	
 }
 .imagenscenter{
-margin:auto;
-height:auto;
+width: 100%;
+height: auto;
+background-color: blue;
 }
-
+.banner{
+	margin:auto;
+}
 /*Comentarios*/
 .comentarios{
 	width: 50%;
