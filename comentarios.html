@@ -5,55 +5,56 @@
 		<link rel="stylesheet" href="rosto/modelo.css">
 	</head>
 	<body>
-		<div id="tela">
-			<div id="titulo">
-			<h1>Sedex</h1>
+<div class="tela">
+	<div class="header">
+		<div class="titulo logo">
+			<h1>- - - Sedex - - -</h1>
+		</div>
+			<div class="titulo menu">		
+				<a href="index.html">Home</a>
+				<a href="#jogos">Jogos</a>
+				<a href="#pixel">Artes</a>
+				<a href="comentarios.html">Comentarios</a>
+			</div>
 	</div>
-			<div id="menu">
-				
-		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="#jogos">Jogos</a></li>
-			<li><a href="#pixel">Pixel Art</a></li>
-			<li><a href="comentarios.html">Comentarios</a></li>
-		</ul>
-	</div>
-
-	<br>
-		<div id="itens">
-	 <div class="imagensleft">	
-		<img src="rosto\imagens\gato.gif" width="100" height="100" 
+		<div class="conteudo">
+	 <div class="gatinho left">	
+		<img src="rosto\imagens\gato.gif"
 		onmouseover="this.src= 'rosto/imagens/gatoglitch.gif'"
 		onmouseout="this.src='rosto/imagens/gato.gif'" >
 	 </div>
-				<div id="conteudo">
-					<div id="inicio">
+					<div class="gatinho texto center">
 						<div class="comentarios">
-							<form action="comentarios.php" method="post" enctype="multipart/form">
-                            <h3>Nome</h3>
-                            <input type="text" name="nome" style="color: white;">
-							<h3>Turma</h3>
-							<select style="color: white;">
-								<option value="0">Selecione...</option>
-								<option value="1C">1ºC</option>
-								<option value="2C">2ºC</option>
-								<option value="3C">3ºC</option>
-							</select>
-                            <h3>Comentario</h3>
-                            <textarea name="comentarios" id="comentarios" rows="10" cols="50" style="color: white;"></textarea> <br>
-								<input type="submit" value="Enviar" maxlength="400" style="color: white; padding: 10px; margin-top: 30px;">
+								<form action="comentarios.php" method="post" enctype="multipart/form">
+                            <h3 style="color: rgb(167, 36, 255)">Nome</h3>
+							<br>
+                          	  <input type="text" name="nome" style="background-color: black;color: white;">
+							<h3 style="color: rgb(167, 36, 255)">Turma</h3>
+							<br>
+								<select name="turma" style="color: white;background-color: black;">
+									<option value="0">Selecione...</option>
+									<option value="1C">1ºC</option>
+									<option value="2C">2ºC</option>
+									<option value="3C">3ºC</option>
+								</select>
+								<br>
+                          	<h3 style="color: rgb(167, 36, 255)">Comentario</h3>
+                          	  <textarea name="comentarios" id="comentarios" rows="10" cols="50" style="background-color: black; ;color: black;"></textarea> <br>
+								<input type="submit" value="Enviar" maxlength="400" style="background-color: black;color: gold; padding: 10px; margin-top: 30px;">
                         </div>
-					<h3>Comentarios Recentes</h3>
+						<br>
+					<h3 style="text-align: center; color: rgb(36, 204, 255)">Comentarios Recentes</h3>
 				</div>
 							</form>
+		<div class="gatinho right">
+			<img src="rosto\imagens\gatoR.gif"
+			onmouseover="this.src= 'rosto/imagens/gatoglitchR.gif'"
+			onmouseout="this.src='rosto/imagens/gatoR.gif'" >
+		</div>
 			</div>
 
-		<div class="imagensright">
-		<img src="rosto\imagens\gatoR.gif" width="100" height="100"
-		onmouseover="this.src= 'rosto/imagens/gatoglitchR.gif'"
-		onmouseout="this.src='rosto/imagens/gatoR.gif'" >
-		</div>
-	</div>
+
+</div>
 </div>
 	</body>
 </html>
