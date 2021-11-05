@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Comentarios</title>
+		<link rel="stylesheet" href="rosto/modelo.css">
+	</head>
+	<body>
+<div class="tela">
+	<div class="header">
+		<div class="titulo logo">
+			<h1 class="text amarelo"> - - - Sedex - - -</h1>
+		</div>
+			<div class="titulo menu">		
+				<a href="index.html">Home</a>
+				<a href="hobbies.html">hobbies</a>
+				<a href="#pixel">Artes</a>
+				<a href="comentarios.html">Comentarios</a>
+			</div>
+	</div>
+		<div class="conteudo">
+	 <div class="gatinho left">	
+		<img src="rosto\imagens\gato.gif"
+		onmouseover="this.src= 'rosto/imagens/gatoglitch.gif'"
+		onmouseout="this.src='rosto/imagens/gato.gif'" >
+	 </div>
+					<div class="gatinho texto center">
+						<div class="comentarios">
+							<div class="comment nometurma">
+						<form action="comentarios.php" method="post" enctype="multipart/form">
+                         	   <h3 style="color: magenta">Nome</h3>
+								<br>
+                         	 	  <input type="text" name="nome" style="background-color: black;color: white;">
+								<h3 style="color: magenta">Turma</h3>
+								<br>
+									<select name="turma" style="color: white;background-color: black;">
+										<option value="0">Selecione...</option>
+										<option value="1C">1ºC</option>
+										<option value="2C">2ºC</option>
+										<option value="3C">3ºC</option>
+									</select>
+									<br>
+							</div>
+							<div class="comment comentario">
+                          		<h3 style="color: magenta">Comentario</h3>
+                          	  	<textarea name="comentarios" id="comentarios" rows="10" cols="50"  maxlength="400" style="background-color: black; ;color: white;"></textarea>
+								<input type="submit" value="Enviar" style="width: 30%; background-color: black;color: yellow; padding: 10px; margin-top: 30px;">
+                       		</div>
+						</div>
+					</form>
+				<h3 style=" color: cyan; text-align: center; margin-top: 30%;">Comentarios Recentes</h3>
+			</div>
+			
+			<div class="gatinho right">
+				<img src="rosto\imagens\gato.gif"
+				onmouseover="this.src= 'rosto/imagens/gatoglitch.gif'"
+				onmouseout="this.src='rosto/imagens/gato.gif'" >
+			</div>
+
+
+</div>
+</div>
+	</body>
+</html>
