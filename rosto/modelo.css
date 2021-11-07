@@ -149,6 +149,9 @@ body {
 .text.magenta{
 	color: magenta;
 }
+.text.dark{
+	color: black;
+}
 .gatinho.left {
 	width: 10%;
 	margin-top: 15%;
@@ -202,13 +205,15 @@ body {
 	padding: 5px;
 	width: 60%;
 	height: auto;
-	margin-top: 80px;
+	margin-top: 20px;
+	margin-bottom: 50px;
 }
 
 .imagens.right{
 	float: right;
 	height: auto;
 	width: 40%;
+	margin-bottom: 50px;
 	
 }
 .imagens{
