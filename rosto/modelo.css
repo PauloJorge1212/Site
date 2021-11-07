@@ -221,6 +221,14 @@ body {
 .tudo{
 	width: 100%;
 }
+@media screen and (max-width:1000px) {
+	.imagens.left, .imagens.right{
+		width:100%;
+	}
+	.gatinho.center {
+		width: 100%;
+	}
+}
 /* Imagens e texto do conteudo */
 .banner{
 	margin: auto;
