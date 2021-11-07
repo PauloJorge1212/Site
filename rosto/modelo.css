@@ -52,7 +52,6 @@ body {
 }
 .glitch.subt {
 	font-size: 28px;
-	margin-top: 20px;
 }
 .glitch{
 
@@ -93,17 +92,6 @@ body {
 	content: "";
 	display: table;
 	clear: both;
-}
-.rodape {
-    position: relative;
-    bottom: 0;
-    background-color: rgb(30, 30, 30);
-    color: #FFF;
-    width: 100%;
-    height: auto;    
-    text-align: center;
-    line-height: auto;
-	margin:auto;
 }
 
 .logo p {
@@ -187,7 +175,6 @@ body {
 }
 
 .gatinho img {
-	margin-top: 50%;
 	display: block;
 	margin: auto;
 	height: auto;
@@ -200,7 +187,7 @@ body {
 	margin: 2%;
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:1000px) {
 	.gatinho.left, .gatinho.right img {
 		display: none;
 	}
@@ -209,38 +196,32 @@ body {
 	}
 }
 
-/*Area sobre jogos*/
-
-#jogos{
-	display: block;
-    background: #000;
-    font-size: 16px;
-    line-height: 24px;
-	height: auto;
-    color: #fff;
-    text-align:justify; 
-}
-
-.imagensleft{
+/* Imagens e texto do conteudo */
+.imagens.left{
 	float: left;
-	margin-top: 50px;
-	padding: 10px;
-	width: 10%;
-	height: 100%;
+	padding: 5px;
+	width: 60%;
+	height: auto;
+	margin-top: 80px;
 }
 
-.imagensright{
+.imagens.right{
 	float: right;
-	margin-top: 50px;
-	height: 100%;
+	height: auto;
+	width: 40%;
 	
 }
-
+.imagens{
+	float: left;
+}
 .imagenscenter{
 	width: 100%;
 	height: auto;
 }
-
+.tudo{
+	width: 100%;
+}
+/* Imagens e texto do conteudo */
 .banner{
 	margin: auto;
 	display: block;
@@ -289,3 +270,22 @@ textarea{
   ::-webkit-scrollbar-thumb:hover {
 	background: magenta; 
   }
+footer{
+	width: 100%;
+	height: auto;
+	padding: 1%;
+	background-color: rgb(30,30,30);
+	bottom: 0;
+}
+footer>p{
+	color: #fff;
+	text-align: center;
+}
+@media screen and (max-width:1000px) {
+	.comment.nometurma	{
+		width: 100%;
+	}
+	.comment.comentarios	{
+		width: 100%;
+	}
+}
