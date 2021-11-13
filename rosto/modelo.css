@@ -52,6 +52,8 @@ body {
 }
 .glitch.subt {
 	font-size: 28px;
+	margin-top: 10px;
+	color: black;
 }
 .glitch{
 
@@ -110,12 +112,13 @@ body {
 	margin-left: 1%;
 	margin-right: 1%;
 	text-decoration: none;
+	transition: color 0.07s;
 }
 .menu a:hover{
 	color: magenta;
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:1000px) {
     .titulo.menu, .titulo.logo {
         width: 100%;
     }
@@ -152,6 +155,7 @@ body {
 .text.dark{
 	color: black;
 }
+
 .gatinho.left {
 	width: 10%;
 	margin-top: 15%;
@@ -261,11 +265,25 @@ body {
 h3{
 	margin-top: 10px;
 }
-
+.text p{
+	margin-top: 30%;
+	text-align: center;
+	text-decoration: none;
+	font-size: 22px;
+	color: black;
+}
 textarea{
 	resize: none;
 	width: 100%;
 	margin-top: 5px;
+	margin-bottom: 10px;
+}
+.coment{
+	width:	80%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 100px;
+	margin-right: 100px;
 }
 /* scroll bar */
 ::-webkit-scrollbar {
@@ -295,10 +313,13 @@ footer>p{
 	text-align: center;
 }
 @media screen and (max-width:1000px) {
+	.comentarios		{
+		width: 100%;
+	}
 	.comment.nometurma	{
 		width: 100%;
 	}
-	.comment.comentarios	{
+	.comment.comentario	{
 		width: 100%;
 	}
 }
