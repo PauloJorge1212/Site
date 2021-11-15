@@ -229,6 +229,7 @@ body {
 }
 .tudo{
 	width: 100%;
+	margin-top: 70px;
 }
 @media screen and (max-width:1000px) {
 	.imagens.left, .imagens.right{
